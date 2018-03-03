@@ -1,0 +1,27 @@
+
+*{margin: 0px;padding: 0px;font-family: "Times New Roman", Times, serif}
+body{background-color: #F5F5F5}
+a{text-decoration: none;}
+.wraper{width: 80%;margin: 0px auto;box-shadow: 0 0 17px #CCCCCC;background-color: white}
+.top{overflow: auto;padding: 5px}
+#logo{float: left;}
+#cart_expand{float: right;}
+#cart_expand a{color: black}
+	/*css-thanh-search*/
+#search{float: left;margin-left: 400px;margin-top: 30px}
+#text_search{border: 1px solid #D6D5D5;font-size: 14px;height: 30px;padding-left: 5px;width: 340px;float: left;}
+#text_btn_search{background-image: url(./search.png);border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    width: 32px;
+	margin-left: 10px}
+    /*end css thanh search*/
+	/*css-giỏ-hàng*/
+#cart_expand{margin-top: 30px;height: 32px;margin-right: 25px}
+#in_cart{margin-right: 5px;margin-left: 5px;color: #FF5C01}
+#img_cart{margin-top: 1px}
+	/*end css giỏ hàng*/}

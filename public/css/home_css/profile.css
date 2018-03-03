@@ -1,0 +1,13 @@
+.profile{width: 50%;margin: 10px auto;min-height: 270px;}
+.profile a{color: black}
+.profile li{color: black}
+.profile_title{padding: 10px 0px;text-align:center;background-color: #3a97d4;color: white}
+.profile_infor{
+	padding: 10px 5px;
+}
+.profile_infor span{padding: 5px 10px}
+.profile_infor span:hover{color: #F36F36;text-decoration: underline; cursor: pointer;}
+.profile_infor label{width: 30%;font-size: 16px;font-weight: lighter;color: gray;}
+.profile_infor>p{font-size: 16px;font-weight: lighter;color: #FF5C01;display: inline-block;}
+.profile input:hover{text-decoration: underline;color:#FF5C01 }
+.profile a:hover{text-decoration: underline;color:#FF5C01 }

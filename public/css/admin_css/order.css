@@ -1,0 +1,24 @@
+.view_transaction{top: 75px;
+    left: 566px;
+    width: 50%;
+    position: fixed;
+    background-color: #2D363E;
+    z-index: 999;
+    font-size: 20px;
+    color: white;
+    display: none;
+    animation-name: example;
+   	animation-duration: 0.5s;
+}
+@-webkit-keyframes example {
+   		0%   {opacity:0; left:566px; top:0px;}
+   		100%  {opacity:1; left:566px; top:75px;}
+
+   	}
+.view_transaction .view_transaction_title{color: #319CCA;width: 200px;
+    display: inline-block;}
+h2{color: white}
+.view_transaction h2{height: 50px;text-align: center;line-height: 50px}
+.view_transaction div{padding: 5px 10px}
+.view_transaction ul{text-align: center;}
+.view_transaction_background{position: absolute;top: 0px;width: 100%;background-color: gray;display: none;opacity: 0.3}

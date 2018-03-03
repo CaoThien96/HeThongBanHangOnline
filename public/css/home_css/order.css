@@ -1,0 +1,26 @@
+*{margin: 0px;padding: 0px}
+body{
+	background-color: #F6F6F6;
+}
+a{text-decoration: none;}
+button{border: none;background-color: #FF5722; color: white;font-size: 20px;padding: 5px 10px;display: block;margin: auto;;cursor: pointer;}
+.header{height: 50px;border-bottom: solid 1px #d8d4d4}
+.header a{margin-left: 30%;}
+.header span{font-size: 35px;
+    font-weight: bold;
+	color: #FF5722;}
+.content{width: 80%;margin: auto;overflow: auto;}
+.content .infor_shiper.infor_order{float: left;}
+.content >div{float: left;height: 100%}
+.infor_shiper{width: 62%;border: solid 1px #d8d4d4;margin: auto;}
+.infor_order{width: 36%;border: solid 1px #d8d4d4;}
+.content p{  font-size: 20px;
+    padding-left: 15px;border-bottom: solid 1px #d8d4d4;line-height: 35px;
+    height: 35px;background-color: #46BDED;}
+.form_shiper tr td:first-child{
+	width: 200px
+}
+.form_shiper{padding: 10px}
+.infor_order table{width: 100%}
+.infor_order table tr td{border-bottom: solid 1px #d8d4d4;text-align: center;}
+strong.price{color: red}

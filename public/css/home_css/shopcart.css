@@ -1,0 +1,75 @@
+/**{font-family: "Times New Roman", Times, serif;}*/
+.shopcart{background-color: white;width: 80%;min-height: 260px;
+    margin: auto;
+    margin-top: 20px;}
+.shopcart_header{overflow: auto;height: 50px;
+    line-height: 50px;    border-bottom: 1px solid #00bfa5;    margin-bottom: 20px;}
+.shopcart_header div{float: left;}
+.shopcart_header_name{width: 48%;text-align: center;}
+.shopcart_header_name>input{float: left;
+    margin-top: 2%;
+    width: 20px;
+    height: 20px;}
+.shopcart_header_name img{width: 50px;float: left;}
+.shopcart_header_name h3{float: left;}
+.shopcart_header_name_next{width: 13%;text-align: center;}
+.shopcart_header_name_next input{float: left;width: 30px;height: 30px;border: none;text-align: center;}
+.shopcart_header_name_next button:first-child{margin-left: 5px}
+.shopcart_header_name_next button{float: left;width: 30px;height: 30px;border: none;background-color: #FF5C01;}
+#quanty_cart{margin-top: 15px}
+
+.shopcart_header_name_next .quanty{width: 35px;   height: 30px;}
+.shopcart_content div{float: left;position: relative;}
+.shopcart .shopcart_content a{color: black;}
+.shopcart .shopcart_content a:hover{color: #FF5C01}
+.shopcart_content{overflow: auto;overflow: auto;
+    border-bottom: solid #F5F5F5;
+    margin-bottom: 20px;line-height: 50px}
+.button_buy{width: 93px;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white;
+    float: right;
+    background-color: #FF5C01;
+    cursor: pointer;}
+    
+.shopcart input{width: 20px;
+    height: 20px;}
+.shopcart_btn input,label,strong{float: left;}
+.shopcart_btn strong{margin-left: 50%;font-size: 18px;}
+.shopcart_btn strong span{font-size: 20px;color: #FF5C01;margin-left: 10px;}
+
+#del_product{position: absolute;
+    top: 10px;
+    left: 50px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;}
+#del_product:hover{background-color: #F1F5F7;color: black;border: 1px solid #FF5C01 }
+
+.messager{
+    position: fixed;
+    border-radius: 30px;
+    
+    left: 550px;
+    top: 160px;
+    width: 400px;
+    z-index: 99;
+    height: 300px;
+    background-color: gray;
+    animation-name: animation_messager;
+    animation-duration: 1s;
+}
+@-webkit-keyframes animation_messager {
+        0%   {opacity:0; left:550px; top:0px;height: 0px}
+        100%  {opacity:0.9; left:550px; top:160px;height: 300px}
+
+    }
+
+.messager img{max-width: 200px;
+    margin: auto;
+    display: inherit;
+    margin-top: 14px;}
+.messager h2{text-align: center;
+    color: white;} 
+.background_messager{position: absolute;width: 100%;background-color: gray;opacity: 0.5;top: 0px}
